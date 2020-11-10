@@ -6,16 +6,18 @@ body {
         width: 800px;
         margin-top: 100px;
         margin-left: calc((100% - 800px) / 2);
+        position: relative;
     }
         .left-column {
             display: inline-block;
             width: 40%;
-            float: left;
             padding: 40px;
             padding-bottom: 20px;
-            margin-top: 20px;
             background-color: #0069BA;
             color: #fff;
+            position: absolute;
+            top: 30px;
+            bottom: 30px;
         }
             .page-title {
                 display: inline-block;
@@ -24,6 +26,10 @@ body {
             .bottom-links {
                 display: inline-block;
                 width: 100%;
+                position: absolute;
+                bottom: 20px;
+                left: 40px;
+                right: 40px;
             }
                 .bottom-links > .link {
                     color: #fff;
@@ -33,9 +39,18 @@ body {
         .right-column {
             display: inline-block;
             width: 60%;
-            float: left;
+            float: right;
             padding: 60px;
             background-color: #fff;
+            position: relative;
         }
             .close {
+                display: inline-block;
+                width: 60px;
+                line-height: 60px;
+                text-align: center;
+                font-size: 30px;
+                position: absolute;
+                top: 0;
+                right: 0;
             }
