@@ -1,0 +1,74 @@
+body {
+    background-color: #4BB3C9;
+    
+}
+.background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/kalnas.jpg);
+    filter: blur(20px);
+    height: 100vh;
+
+
+
+}
+    .container {
+        display: inline-block;
+        width: 800px;
+        position: absolute;
+        /* top: calc((100vh - 460px) / 2); */
+        /* left: calc((100% - 800px) / 2); */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+        .left-column {
+            display: inline-block;
+            width: 40%;
+            padding: 40px;
+            padding-bottom: 20px;
+            background-color: #0069BA;
+            background-image: url(../img/kalnas.jpg);
+            color: #fff;
+            position: absolute;
+            top: 30px;
+            bottom: 30px;
+            background-size: cover;
+            background-position: center
+        }
+            .page-title {
+                display: inline-block;
+                width: 100%;
+            }
+            .bottom-links {
+                display: inline-block;
+                width: 100%;
+                position: absolute;
+                bottom: 20px;
+                left: 40px;
+                right: 40px;
+            }
+                .bottom-links > .link {
+                    color: #fff;
+                }
+                .bottom-links > .text {
+                }
+        .right-column {
+            display: inline-block;
+            width: 60%;
+            float: right;
+            padding: 60px;
+            background-color: #fff;
+            position: relative;
+        }
+            .close {
+                display: inline-block;
+                width: 60px;
+                line-height: 60px;
+                text-align: center;
+                font-size: 30px;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
